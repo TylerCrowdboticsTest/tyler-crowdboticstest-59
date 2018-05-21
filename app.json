@@ -1,0 +1,16 @@
+
+{
+  "name": "tyler-crowdboticstest-59",
+  "description": "This is repository for empty app developed with empty, built with Crowdbotics. https://crowdbotics.com and with features ",
+  "repository": "https://github.com/TylerCrowdboticsTest/tyler-crowdboticstest-59",
+  "keywords": ['empty'],
+  "env": {
+    "DEBUG_COLLECTSTATIC": "1" 
+  },
+  "addons": [
+    "heroku-postgresql:hobby-dev"
+  ],
+  "scripts": {
+    "postdeploy": "./postdeploy.sh"
+  }
+}
